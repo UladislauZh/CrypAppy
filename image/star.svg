@@ -1,0 +1,33 @@
+<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="14" height="13" fill="#F5F5F5"/>
+<g id="Desktop" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="6891" transform="translate(-740 -4115)" fill="white"/>
+<g id="Frame">
+<path id="Rectangle" d="M-740 -562H700V524H-740V-562Z" fill="#010225"/>
+<g id="Frame_2">
+<g id="Frame_3">
+<g id="Frame_4">
+<g id="Frame_5">
+<g id="Frame_6">
+<path id="Rectangle_2" d="M-5 -3C-5 -4.65685 -3.65685 -6 -2 -6H16C17.6569 -6 19 -4.65685 19 -3V15C19 16.6569 17.6569 18 16 18H-2C-3.65685 18 -5 16.6569 -5 15V-3Z" fill="#212250"/>
+<g id="IMAGE" clip-path="url(#clip1_0_1)">
+<g id="Micro-Design-">
+<path id="Star" fill-rule="evenodd" clip-rule="evenodd" d="M6.99997 10.7763L2.67975 12.9964L3.50484 8.29423L0.00970459 4.96417L4.83986 4.27814L6.99997 0L9.16008 4.27814L13.9902 4.96417L10.4951 8.29423L11.3202 12.9964L6.99997 10.7763Z" fill="#159BE8"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="6891" fill="white" transform="translate(-740 -4115)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="14" height="13" fill="white"/>
+</clipPath>
+</defs>
+</svg>
