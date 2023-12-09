@@ -1,7 +1,12 @@
 :root {
---18: 400 18px League Spartan;
+  --18: 400 18px League Spartan;
+  --16: 400 16px League Spartan;
+  --h1: 400 64px League Spartan;
+  --12: 400 12px League Spartan;
+  --40: 400 40px League Spartan;
+  --20: 400 20px League Spartan;
+  --11: 400 11px League Spartan;
 }
-
 
 * {
   box-sizing: border-box;
@@ -9,29 +14,157 @@
 
 body {
   margin: 0 auto;
+}
 
-.header{
-  background: #0C0D2E;
+header {
+  background-color: #0c0d2e;
+}
+.header {
+  background-color: #0c0d2e;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin: auto;
+  max-width: 1440px;
 }
 
-.image {
-  width: 50%;
-
+.header-image {
+  max-width: 170px;
 }
 
-.header-menu  {
-display: flex;
-gap: 24px;
+.header-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
-.header-text  {
+.header-text {
   text-decoration: none;
   font: var(--18);
   color: white;
   line-height: 20px;
+}
 
+.ht-blue {
+  text-decoration: none;
+  font: var(--18);
+  color: #189ce8;
+  line-height: 20px;
+}
+
+.button-menu {
+  font: var(--16);
+  line-height: 16px;
+  background: #0c0d2e;
+  color: white;
+  border-radius: 100px;
+  border: 2px solid #fff;
+  min-height: 50px;
+  width: 160px;
+}
+
+/* Main */
+
+main {
+  background-color: #010225;
+}
+
+.portfolio {
+  background-color: #010225;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.crypto-portfolio {
+  max-width: 640px;
+  margin-left: 60px;
+}
+
+h1 {
+  font: var(--h1);
+  line-height: 76px;
+  color: white;
+  max-width: 560px;
+  margin: 0;
+}
+
+.text-portfolio {
+  font: var(--12);
+  line-height: 30px;
+  color: white;
+  max-width: 620px;
+}
+
+.phone-portfolio {
+  object-position: 10px -60px;
+}
+
+h2 {
+  font: var(--40);
+  line-height: 54px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.new-crypto {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.crypto-text {
+  font: var(--18);
+  line-height: 30px;
+  color: white;
+}
+
+.learn-more {
+  display: flex;
+  gap: 20px;
+}
+
+.benefit {
+  max-width: 360px;
+  text-align: center;
+  padding: 40px;
+}
+
+.benefit-headline {
+  font: var(--20);
+  line-height: 20px;
+  color: white;
+}
+
+.benefit-text {
+  font: var(--11);
+  line-height: 24px;
+  color: white;
+  max-width: 270px;
+}
+
+.benefit-button {
+  border: none;
+  background-color: inherit;
+  color: #159be8;
+  line-height: 20px;
+  font: var(--18);
+}
+
+.perfect {
+  margin: 0 auto;
+  min-width: 1440px;
 }
